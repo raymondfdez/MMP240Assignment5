@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+    <TITLE>Animation</TITLE>
+   <script src="https://kit.fontawesome.com/97b997ac46.js" crossorigin="anonymous"></script>
+    <style>
+        
+         body{
+         background-color: #19184A;
+        }
+        
+        I{
+            padding: 10px;
+        }
+        
+           .socialmedia{  
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: -30px;
+        }
+        p{
+            font-size: 30px;
+            font-family: 'Balsamiq Sans', cursive;
+            text-align: center;
+            padding: 10px;
+            margin-top: 130px;
+            margin-left: 120px;
+            margin-right: 120px;
+            margin-bottom: 40px;
+        }
+   
+        #logo {
+            font-size: 25px;
+        font-family: 'Syne Mono', monospace;
+           padding: 5px 1000px;
+   
+        }
+        #logo a {
+            text-decoration: none;
+            color: white;
+            text-shadow: 3px 5px black;
+        }
+        #mbtn {
+            display: none;
+        }
+        header {
+            position: fixed;
+            width: 100%;
+            height: 90px;
+            top: 0px;
+            background: #A7BED8;
+            box-shadow: 0em 1em 1em 0em rgb(0 0 0 / 30%);
+        }
+        nav {
+            position: absolute;
+            right: 25px;
+            top: 12px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav li {
+           font-family: 'Montserrat', sans-serif;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        nav li ul {
+            display: none;
+        }
+
+        nav li:hover ul {
+            display: block;
+        }
+
+        nav li ul li {
+           display: block;
+        }
+             * {
+            box-sizing: border-box;
+            margin: 20;
+        }
+
+        nav a {
+            display: block;
+            border: 2px solid #A7BED8;
+            color: #fff;
+            padding: 10px 40px;
+            text-decoration: none;
+            width: 120px;
+            background-color: #19184A;
+            border-radius: 15px;
+        }
+
+      
+        
+        div {
+
+  background-color: #A7BED8;
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+  from {background-color: #E5C854;}
+  to {background-color: #A7BED8;}
+}
+        .socialmedia{  
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: -30px;
+        }
+        .icon{
+            margin-left: 20px;
+        }
+        .icon:hover {
+    color: white;
+    opacity: .5;
+}
+        body{
+         background-color: #19184A;
+        }
+          nav a:hover {
+            color: #19184A;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <header>
+        
+        <div id="logo">
+            <h1><a href="index.html">STI Basketball Team </a></h1>
+        </div>
+       
+        
+        <button id="mbtn">&#9776;</button>
+        
+        <nav>
+            
+            <ul>
+                <li><a>Home</a></li>
+                <li><a >Apply</a></li>
+                <li><a>Shop</a></li>
+            </ul>
+            
+        </nav>
+        
+    </header>
+    
+    <div class='hero'>
+    <p> Keep yourself updated with all our activities,<br> games, signings, and more by following us at:</p>
+        
+        <div class='socialmedia'>
+        <i class="fab fa-instagram-square" style="font-size:50px;"></i>
+        <i class="fab fa-facebook-square" style="font-size:50px;"></i>
+        <i class="fab fa-twitter-square" style="font-size:50px;"></i>
+        <i class="fab fa-tiktok" style="font-size:50px;" ></i>
+        </div>
+        
+        </div>
+</body>
+</html>
